@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.controllers.ChatController">
+    <children>
+      <VBox prefHeight="25.0" prefWidth="900.0">
+         <children>
+            <MenuBar prefHeight="25.0" prefWidth="902.0">
+              <menus>
+                <Menu mnemonicParsing="false" style="-fx-text-fill: #FFFF99;" text="File">
+                  <items>
+                    <MenuItem mnemonicParsing="false" onAction="#doExit" text="Выход" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Settings">
+                  <items>
+                        <MenuItem mnemonicParsing="false" onAction="#openChangePasswordWindow" text="Изменить пароль" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                  <items>
+                    <MenuItem mnemonicParsing="false" onAction="#showAbout" text="О программе" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+         </children>
+      </VBox>
+        <SplitPane dividerPositions="0.3" layoutY="23.0" prefHeight="413.0" prefWidth="919.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="23.0">
+            <items>
+                <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" prefHeight="417.0" prefWidth="272.0">
+                    <children>
+                        <ListView fx:id="usersList" minHeight="-Infinity" minWidth="-Infinity" prefHeight="408.0" prefWidth="272.0" style="-fx-text-fill: #006666; -fx-font-size: 18pt;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                    </children></AnchorPane>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="428.0" prefWidth="427.0">
+                    <children>
+                        <SplitPane dividerPositions="0.8838383838383839" orientation="VERTICAL" prefHeight="575.0" prefWidth="626.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                            <items>
+                                <VBox prefHeight="517.0" prefWidth="566.0">
+                                    <children>
+                                        <HBox alignment="CENTER" maxHeight="-Infinity" prefHeight="43.0" prefWidth="626.0" style="-fx-text-fill: #FFFF99;">
+                                            <children>
+                                                <AnchorPane prefHeight="43.0" prefWidth="624.0">
+                                                    <children>
+                                          <HBox layoutX="-1.0" prefHeight="43.0" prefWidth="639.0">
+                                             <children>
+                                                              <Label alignment="CENTER" prefHeight="43.0" prefWidth="129.0" style="-fx-background-color: #006666; -fx-text-fill: #FFFF99;" text="My Chat">
+                                                                  <font>
+                                                                      <Font size="24.0" />
+                                                                  </font>
+                                                   <effect>
+                                                      <Bloom />
+                                                   </effect>
+                                                              </Label>
+                                                              <Label fx:id="usernameTitle" alignment="CENTER" nodeOrientation="RIGHT_TO_LEFT" prefHeight="43.0" prefWidth="367.0" style="-fx-background-color: #006666; -fx-text-fill: #FFFF99;" text="1234">
+                                                                  <font>
+                                                                      <Font size="18.0" />
+                                                                  </font>
+                                                   <effect>
+                                                      <Bloom />
+                                                   </effect>
+                                                              </Label>
+                                                <Hyperlink fx:id="change" alignment="CENTER" contentDisplay="CENTER" onAction="#changeUsernameField" onMouseClicked="#changeUsernameField" prefHeight="43.0" prefWidth="172.0" style="-fx-background-color: #006699; -fx-text-fill: #FFFF99;" text="Изменить имя" textAlignment="RIGHT">
+                                                   <effect>
+                                                      <Bloom />
+                                                   </effect></Hyperlink>
+                                             </children>
+                                          </HBox>
+                                          <TextField fx:id="changeNameField" alignment="CENTER_RIGHT" layoutX="-63.0" onAction="#changeName" onDragEntered="#changeName" prefHeight="42.0" prefWidth="247.0" style="-fx-background-color: #006666;" visible="false" />
+                                                    </children>
+                                                    <HBox.margin>
+                                                        <Insets />
+                                                    </HBox.margin>
+                                                </AnchorPane>
+                                            </children>
+                                        </HBox>
+                                        <TextArea fx:id="chatHistory" editable="false" maxHeight="1.7976931348623157E308" prefHeight="466.0" prefWidth="672.0" style="-fx-text-fill: #006699;" wrapText="true" VBox.vgrow="ALWAYS">
+                                            <font>
+                                                <Font size="15.0" />
+                                            </font>
+                                 <effect>
+                                    <Reflection />
+                                 </effect></TextArea>
+                                        <ChoiceBox fx:id="userSend" prefWidth="150.0" />
+                                    </children>
+                                </VBox>
+                                <AnchorPane maxHeight="50.0" minHeight="30.0" minWidth="0.0" prefWidth="160.0" style="-fx-background-color: #99CCCC;">
+                                    <children>
+                                        <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #FFFF99;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                            <children>
+                                                <TextField fx:id="textField" maxHeight="1.7976931348623157E308" promptText="Insert your message here" style="-fx-background-color: #006666; -fx-text-fill: #FFFF99;" HBox.hgrow="ALWAYS">
+                                                    <font>
+                                                        <Font size="18.0" />
+                                                    </font></TextField>
+                                                <Button fx:id="sendButton" maxHeight="1.7976931348623157E308" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: #006666; -fx-text-fill: #FFFF99;" text="Send">
+                                                    <font>
+                                                        <Font size="18.0" />
+                                                    </font>
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                       <cursor>
+                                          <Cursor fx:constant="DEFAULT" />
+                                       </cursor>
+                                       <effect>
+                                          <Bloom />
+                                       </effect></Button>
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                </AnchorPane>
+                            </items>
+                        </SplitPane>
+                    </children>
+                </AnchorPane>
+            </items>
+        </SplitPane>
+    </children>
+</AnchorPane>
