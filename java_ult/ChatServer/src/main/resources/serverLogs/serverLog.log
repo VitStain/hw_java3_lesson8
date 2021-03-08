@@ -1,0 +1,16 @@
+мар. 08, 2021 10:39:27 AM chat.MyServer start
+INFO: Сервер запущен
+мар. 08, 2021 10:39:28 AM chat.MyServer waitAndProcessNewClientConnection
+INFO: Сервер ожидает подключения пользователя к порту 8828...
+мар. 08, 2021 10:40:16 AM chat.MyServer waitAndProcessNewClientConnection
+INFO: Установлено соединение с клиентом, ожидаем авторизацию
+мар. 08, 2021 10:40:16 AM chat.MyServer waitAndProcessNewClientConnection
+INFO: Сервер ожидает подключения пользователя к порту 8828...
+мар. 08, 2021 10:40:56 AM chat.MyServer waitAndProcessNewClientConnection
+INFO: Установлено соединение с клиентом, ожидаем авторизацию
+мар. 08, 2021 10:40:56 AM chat.MyServer waitAndProcessNewClientConnection
+INFO: Сервер ожидает подключения пользователя к порту 8828...
+мар. 08, 2021 10:42:07 AM chat.MyServer waitAndProcessNewClientConnection
+INFO: Установлено соединение с клиентом, ожидаем авторизацию
+мар. 08, 2021 10:42:07 AM chat.MyServer waitAndProcessNewClientConnection
+INFO: Сервер ожидает подключения пользователя к порту 8828...

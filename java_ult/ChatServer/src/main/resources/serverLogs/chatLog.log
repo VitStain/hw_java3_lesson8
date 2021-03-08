@@ -1,0 +1,36 @@
+INFO Mon Mar 08 10:40:30 MSK 2021 Подключен к базе данных
+INFO Mon Mar 08 10:40:31 MSK 2021 Мартин присоединился к чату
+FINE Mon Mar 08 10:40:31 MSK 2021 User chat.handler.ClientHandler@48f35ca0 отправлено сообщение
+FINE Mon Mar 08 10:40:31 MSK 2021 User null отправлено сообщение
+INFO Mon Mar 08 10:40:31 MSK 2021 Мартин подключился к чату
+INFO Mon Mar 08 10:41:23 MSK 2021 Подключен к базе данных
+INFO Mon Mar 08 10:41:35 MSK 2021 Подключен к базе данных
+INFO Mon Mar 08 10:41:35 MSK 2021 Вит присоединился к чату
+FINE Mon Mar 08 10:41:35 MSK 2021 User chat.handler.ClientHandler@20fb1d04 отправлено сообщение
+FINE Mon Mar 08 10:41:35 MSK 2021 User null отправлено сообщение
+INFO Mon Mar 08 10:41:35 MSK 2021 Вит подключился к чату
+INFO Mon Mar 08 10:42:18 MSK 2021 Подключен к базе данных
+INFO Mon Mar 08 10:42:18 MSK 2021 Борис присоединился к чату
+FINE Mon Mar 08 10:42:18 MSK 2021 User chat.handler.ClientHandler@2ee22abd отправлено сообщение
+FINE Mon Mar 08 10:42:18 MSK 2021 User null отправлено сообщение
+INFO Mon Mar 08 10:42:18 MSK 2021 Борис подключился к чату
+INFO Mon Mar 08 10:42:29 MSK 2021 Борис пытается изменить пароль
+WARNING Mon Mar 08 10:42:30 MSK 2021 Борис успешно изменил пароль
+FINE Mon Mar 08 10:42:50 MSK 2021 User chat.handler.ClientHandler@48f35ca0 отправлено сообщение
+FINE Mon Mar 08 10:42:59 MSK 2021 User chat.handler.ClientHandler@20fb1d04 отправлено сообщение
+FINE Mon Mar 08 10:43:04 MSK 2021 User chat.handler.ClientHandler@2ee22abd отправлено сообщение
+FINE Mon Mar 08 10:43:17 MSK 2021 User Мартин написал приватное сообщение
+FINE Mon Mar 08 10:43:32 MSK 2021 User chat.handler.ClientHandler@48f35ca0 отправлено сообщение
+FINE Mon Mar 08 10:43:39 MSK 2021 User Борис написал приватное сообщение
+INFO Mon Mar 08 10:43:46 MSK 2021 Борис покинул чат
+FINE Mon Mar 08 10:43:46 MSK 2021 User chat.handler.ClientHandler@2ee22abd отправлено сообщение
+FINE Mon Mar 08 10:43:46 MSK 2021 User null отправлено сообщение
+INFO Mon Mar 08 10:43:46 MSK 2021 Борис покинул чат
+INFO Mon Mar 08 10:43:48 MSK 2021 Вит покинул чат
+FINE Mon Mar 08 10:43:48 MSK 2021 User chat.handler.ClientHandler@20fb1d04 отправлено сообщение
+FINE Mon Mar 08 10:43:48 MSK 2021 User null отправлено сообщение
+INFO Mon Mar 08 10:43:48 MSK 2021 Вит покинул чат
+INFO Mon Mar 08 10:43:49 MSK 2021 Мартин покинул чат
+FINE Mon Mar 08 10:43:49 MSK 2021 User chat.handler.ClientHandler@48f35ca0 отправлено сообщение
+FINE Mon Mar 08 10:43:49 MSK 2021 User null отправлено сообщение
+INFO Mon Mar 08 10:43:49 MSK 2021 Мартин покинул чат
